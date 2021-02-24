@@ -11,9 +11,9 @@ export default class Cell extends Component {
 
   render(){
     return (
-      <div>`
+      <div
         className = "cell"
-        ${this.state.color}
+        style = ${this.state.color}>
       </div>
     )
   }

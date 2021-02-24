@@ -13,7 +13,7 @@ export default class Cell extends Component {
     return (
       <div
         className = "cell"
-        style = {{backgroundColor: ${this.state.color}}}>
+        style = {{backgroundColor: ${this.state.color}}>
       </div>
     )
   }
